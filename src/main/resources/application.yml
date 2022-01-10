@@ -1,0 +1,12 @@
+app.services.greeting.message: Hello World
+
+spring:
+  datasource:
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://localhost:5433/employee
+    driver-class-name: org.postgresql.Driver
+
+  # V(version)__description.sql
+  flyway:
+    schemas: test_schema
